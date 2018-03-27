@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Menu, Button, Label, Icon, Dropdown } from "semantic-ui-react";
+import { Menu } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 
@@ -10,12 +10,6 @@ const MyMenu = styled(Menu)`
     border-bottom: none;
   }
 `;
-
-const options = [
-  { key: "edit", icon: "edit", text: "Edit Post", value: "edit" },
-  { key: "delete", icon: "delete", text: "Remove Post", value: "delete" },
-  { key: "hide", icon: "hide", text: "Hide Post", value: "hide" }
-];
 
 export default class MenuApp extends Component {
   state = {};

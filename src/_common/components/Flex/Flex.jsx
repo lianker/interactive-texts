@@ -1,5 +1,3 @@
-import React, { Component } from "react";
-import { Menu, Button, Label, Icon, Dropdown } from "semantic-ui-react";
 import styled from "styled-components";
 
 const Flex = styled.div`
